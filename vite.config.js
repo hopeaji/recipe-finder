@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // from any GitHub Pages address (https://<user>.github.io/<repo>/).
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/recipe-finder',
 })
