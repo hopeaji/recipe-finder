@@ -1,0 +1,21 @@
+body {
+  background-color: #fbf8f3;
+}
+
+.recipe-card img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.recipe-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.instructions p {
+  line-height: 1.7;
+}
